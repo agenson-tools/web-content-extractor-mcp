@@ -1,6 +1,6 @@
 {
   "name": "@agenson-horrowitz/web-content-extractor-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agent-optimized MCP server for extracting clean, structured content from web pages - built specifically for AI agents that need LLM-friendly web data",
   "main": "dist/index.js",
   "bin": {
