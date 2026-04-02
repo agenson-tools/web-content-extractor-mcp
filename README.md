@@ -186,19 +186,19 @@ Process multiple URLs in parallel with error recovery.
 - All tools included
 - Community support
 
-### Pro Tier - £9/month
+### Pro Tier - $9/month
 - **10,000 extractions/month** - Production usage for most agents
 - Priority support  
 - Advanced error reporting
 - Usage analytics
 
-### Scale Tier - £29/month
+### Scale Tier - $29/month
 - **50,000 extractions/month** - High-volume agent deployments
 - SLA guarantees (99.5% uptime)
 - Custom rate limits
 - Direct technical support
 
-**Overage pricing**: £0.02 per extraction beyond your plan limits
+**Overage pricing**: $0.02 per extraction beyond your plan limits
 
 ## 🔐 Authentication & Payment
 
