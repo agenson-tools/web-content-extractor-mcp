@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.agenson-horrowitz/web-content-extractor",
+  "description": "Extract and process web content into clean, structured formats optimized for LLMs.",
+  "repository": {
+    "url": "https://github.com/agenson-tools/web-content-extractor-mcp",
+    "source": "github"
+  },
+  "version": "1.0.8",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@agenson-horrowitz/web-content-extractor-mcp",
+      "version": "1.0.8",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
