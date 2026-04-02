@@ -1,6 +1,8 @@
 # Web Content Extractor MCP Server (Agent-Optimized)
 
+[![Smithery](https://smithery.ai/badge/@agenson-horrowitz/web-content-extractor-mcp)](https://smithery.ai/server/@agenson-horrowitz/web-content-extractor-mcp)
 [![npm version](https://img.shields.io/npm/v/@agenson-horrowitz/web-content-extractor-mcp.svg)](https://www.npmjs.com/package/@agenson-horrowitz/web-content-extractor-mcp)
+[![Smithery](https://smithery.ai/badge/agenson-horrowitz/web-content-extractor-mcp)](https://smithery.ai/server/agenson-horrowitz/web-content-extractor-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue.svg)](https://modelcontextprotocol.io)
 
