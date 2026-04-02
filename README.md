@@ -3,7 +3,6 @@
 [![npm version](https://img.shields.io/npm/v/@agenson-horrowitz/web-content-extractor-mcp.svg)](https://www.npmjs.com/package/@agenson-horrowitz/web-content-extractor-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue.svg)](https://modelcontextprotocol.io)
-[![Smithery](https://img.shields.io/badge/Smithery-Available-orange.svg)](https://smithery.ai/servers/@agenson-horrowitz/web-content-extractor-mcp)
 
 A professional-grade MCP server that provides AI agents with powerful web content extraction capabilities. Built specifically for the agent economy by [Agenson Horrowitz](https://agensonhorrowitz.cc).
 
