@@ -1,0 +1,65 @@
+# mcpize.yaml - MCPize Deployment Configuration for Web Content Extractor
+version: 1
+name: web-content-extractor
+description: |
+  Agent-optimized MCP server for extracting clean, structured content from web pages.
+  Built specifically for AI agents that need LLM-friendly web data. Provides 5 powerful tools:
+  advanced article extraction with readability optimization, structured data parsing (tables, lists, forms),
+  intelligent link extraction with categorization, visual layout analysis via screenshots, and
+  high-performance batch processing with rate limiting and error recovery.
+
+# Runtime configuration
+runtime: typescript
+entry: dist/index.js
+
+# Build configuration  
+build:
+  install: npm ci
+  command: npm run build
+
+# Start command
+startCommand:
+  type: stdio  # MCP servers typically use stdio transport
+  command: node dist/index.js
+
+# Bridge mode for stdio servers (MCPize will wrap with HTTP proxy)
+bridge:
+  mode: stdio
+
+# Category and tags for marketplace discovery
+category: web-scraping
+tags:
+  - web-extraction
+  - content-scraping
+  - article-extraction
+  - structured-data
+  - web-crawler
+  - readability
+  - batch-processing
+  - agent-tools
+  - ai-agents
+  - markdown-conversion
+
+# Environment variables (none required for basic functionality)
+secrets: []
+
+# Metadata for marketplace listing
+metadata:
+  icon: "🌐"  # Will be replaced with proper icon later
+  screenshots: []
+  homepage: "https://agensonhorrowitz.cc"
+  repository: "https://github.com/agenson-horrowitz/web-content-extractor-mcp"
+  license: "MIT"
+  author:
+    name: "Agenson Horrowitz"
+    email: "agensonhorrowitz@gmail.com"
+    url: "https://agensonhorrowitz.cc"
+
+# Health check endpoint (optional but recommended)
+healthCheck:
+  enabled: false  # stdio servers don't expose HTTP endpoints
+
+# Resource limits (higher than basic due to Playwright browser)
+resources:
+  memory: 512  # MB (needs more for browser automation)
+  cpu: 1.0     # CPU units
